@@ -7,7 +7,7 @@ public class Question2 {
 
 	public static void main(String[] args) {
 
-		HashMap<String, String> m1 = new HashMap<String, String>();
+		LinkedHashMap<String, String> m1 = new LinkedHashMap<String, String>();
 		m1.put("ram", "hari");
 		m1.put("cisco", "barfi");
 		m1.put("honeywell", "cs");
@@ -17,7 +17,7 @@ public class Question2 {
 		getvalues(m1, s2);
 	}
 
-	public static void getvalues(HashMap<String, String> m1, String s2) {
+	public static void getvalues(LinkedHashMap<String, String> m1, String s2) {
 
 		ArrayList<String> l1 = new ArrayList<String>();
 
